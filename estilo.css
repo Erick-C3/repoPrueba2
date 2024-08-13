@@ -1,3 +1,23 @@
 body{
     background-color: whitesmoke;
+    display: grid;
+    justify-items: center;
+}
+
+#contenedor-calculadora{
+    background-color: gray;
+}
+
+#contenedor-calculadora > input {
+    width: 100px;
+}
+
+#contenedor-opciones{
+    background-color: brown;
+    display: grid;
+    justify-items: center;
+}
+
+.fila{
+    
 }
