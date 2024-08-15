@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: rgb(206, 206, 206);
     display: grid;
     justify-items: center;
 }
@@ -9,12 +9,28 @@ body{
 }
 
 #contenedor-calculadora > input {
-    width: 100px;
+    width: 99%;
+    border:1px solid black;
+    padding: 0px;
 }
 
 #contenedor-opciones{
     background-color: brown;
     display: grid;
     justify-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
+
+.fila > button{
+    width: 25px;
+    height: 25px;
+    font-size: 100%;
+    border-radius: 10px;
+    border:1px solid rgb(27, 27, 26);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 
